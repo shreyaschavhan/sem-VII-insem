@@ -15,3 +15,7 @@
   <br>
 </div>
 
+- What is an algorithm?
+> - In order for us to complete a specific task, we need to define a finite set of unambiguous steps that needs to be followed in certain order.
+> - These finite set of unambiguous steps are called as algorithm.
+
