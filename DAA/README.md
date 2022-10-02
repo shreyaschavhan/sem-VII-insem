@@ -228,3 +228,150 @@ for i in range(n):
 
   <br>
 </div>
+
+- Analysis:
+> - Input size:
+>   - For sorting, the input size n should be the number of items to be sorted.
+>   - For graphs, the input size n should be the number of vertices and/or edges.
+>   - For numerical, the input size n should be the number of bits needed to represent the number.
+>   - i.e. the input size depends on the operation that need to be performed.
+>
+> ---
+>
+> - Best Case:
+>   - Best case is achieved when the algorithm is provided with the most favorable input, i.e. best case input of size n.
+>   - With such input, an algorithm runs to its completion in the least amount of time as compared to other inputs of same size n.
+>
+> ---
+>
+> - Worst Case:
+>   - Worst case is achieved when the algorithm is provided with the least favorable input i.e. worst possible input with size n.
+>   - With such input, an algorithm runs to it's completion in the longest amount of time as compared to other inputs of same size n.
+>
+> ---
+>
+> - Average Case:
+>   - Average case is considered neither the best nor the worst.
+>   - The input is considered any random input of size n.
+>   - The estimation of average case is based on some probabilistic assumptions and is comparatively more complex than the best-case and worst-case analysis.
+
+- Counting Dominant Operators
+> - The most frequently occurring operators in the algorithms are called as dominant operators.
+> - The frequency of the operators determine the time complexity of the operators and hence counting the dominant operators is important.
+
+- Growth Rate:
+> - Growth Rate indicates how quickly the time required by the algorithm grows with respect to the input size.
+> - i.e. the rate at which the time required by the algorithm grows with respect to the input size is called as growth rate.
+
+- Upper bound:
+> - Upper bound stands for the element greater than or equal to all the elements in a given set.
+
+- Asymptotic Growth:
+> - It's a mathematical way of representing the time complexity.
+
+- Asymptotic Notations:
+> - We use asymptotic notations to be able to compare algorithms with reference to their growth rates.
+> - There are 5 types of Asymptotic notations:
+>   - Big "Oh" (O)
+>   - Big Omega (Ω)
+>   - Theta (θ)
+>   - Little "Oh" (o)
+>   - Little Omega (ω)
+
+- Big "Oh" (O) Notation:
+> - Let f(n) and g(n) be the two non-negative function that denotes the running time of two algorithms.
+> - We say g(n) is the upper bound of f(n) if there exist some positive constants c and n0 such that 0 <= f(n) <= c.g(n) for all n >= n0. It is denoted as f(n) = O(g(n))
+> - Diagram:
+>
+> ![image](https://user-images.githubusercontent.com/68887544/193465287-1d29fec1-5352-4885-a6d1-91961867116e.png)
+>
+> - Big "Oh" defines a upper bound for the algorithm.
+
+- Big Omega (Ω) Notation:
+> - Let f(n) and g(n) be the two non-negative function that denotes the running time of two algorithms.
+> - We say g(n) is the lower bound of f(n) if there exist some positive constants c and n0 such that 0 <= c.g(n) <= f(n) for all n>= n0. It is denoted as f(n) = Ω(g(n))
+> - Diagram:
+>
+> ![image](https://user-images.githubusercontent.com/68887544/193465519-3f075878-5782-41a0-a494-d669aca1c126.png)
+>
+> - Big Omega defines a lower bound for the algorithm.
+> - Meaning running time for any sequence of input cannot be lower than the asymptotic lower bound for the algorithm.
+
+- Big Theta (θ) Notation:
+> - Let f(n) and g(n) be two non-negative functions that denotes the growth rate of two algorithms.
+> - We say g(n) is the tight bound of f(n) if there exist some positive constants c1, c2 and n0 such that 0 <= c1.g(n) <= f(n) <= c2.g(n) for all n >= n0. It is denoted by f(n) = θ(g(n))
+
+- Little o Notation:
+> - Let f(n) and g(n) be two non-negative functions that denotes the running time fo two Algorithms
+> - We say f(n) = o(g(n)) if there exists any real constants c > 0 and n0 >= 1 such that 0 <= f(n ) < c.g(n)
+> - Little o means loose upper bound of f(n).
+> - In mathematical relation, f(n) = o(g(n)) means lim  f(n)/g(n) = 0 n→∞
+
+- Little omega notation:
+> - Let f(n) and g(n) be two non-negative functions that denotes the growth rate of two algorithms.
+> - We say f(n) = ω(g(n)) if for any real constant c > 0 , there exist an integer constant n0 >= 1 such that f(n) > c.g(n) >= 0 for every integer n >= n0
+> - In mathematical relation, if f(n) ∈ ω(g(n)) then, lim  f(n)/g(n) = ∞ n→∞
+
+- Polynomial and Non-polynomial problems
+> - There exists two types of problems.
+>   - Tractable Problems
+>   - Intractable Problems
+> - Problems that takes polynomial time for completion i.e. O(P(n)) where P(n) is a polynomial, then the problem is called as Tractable problem i.e. Polynomial Problem.
+> - Most of the real world problem falls under polynomial problems.
+> - Example: Binary Search (O(n log n)), Insertion sort O(n^2), etc.
+> - Problems whose solution may not be found in polynomial time is called as Intractable problems i.e. Non-polynomial problems.
+> - Example: Hamiltonian Cycle, Travelling salesman problem, etc.
+
+- Deterministic and Non-Deterministic Algorithms:
+> - An algorithm that returns same output when given with same input multiple times are called as Deterministic algorithms.
+> - Deterministic algorithms are usually represented by state machines, where machine moves from one state to another with specific input.
+> - Most of the algorithms are deterministic algorithms, for example, sorting, odd-even, searching, etc.
+> - An algorithm that produces different output each time when given with the same input, such algorithms are called as non-deterministic algorithms.
+> - Non-deterministic algorithm works in two stages:
+>   - guessing
+>   - verification
+> - i.e. after guessing the answer, the algorithm determines if it's correct or not.
+> - For example, choosing a number randomly from a list and checking if it is maximum is an example of non-deterministic algorithm.
+
+- P-class problems
+> - The class of decision problems that can be solved in polynomial time by deterministic algorithms is called as P-class problems.
+> - The "P" stands for polynomial time algorithm.
+> - P-class problems are Decidable and Tractable.
+> - Some examples of P-class problems are: linear search (O(n)), binary search (O(nlog(n))), etc.
+
+- NP-class problems
+> - The class of decision problems that can be solved in non-deterministic polynomial time is called as NP-class problems.
+> - The NP in NP-class problems stands for Non-deterministic polynomial time and not non-polynomial time.
+> - The Non-deterministic polynomial time algorithms produce possible solution in non-deterministic way and verify the correctness of it polynomial time.
+> - For example, if someone tells us the solution - we can verify the correctness of it in polynomial time, such problems comes under the NP-class problems.
+> - NP class problems are Decidable.
+> - NP class problems are Tractable or Intractable.
+> - All p class problems comes under NP-class problems but the inverse is not true.
+> - Examples: 0/1 knapsack problem, graph colouring problem, etc.
+> - There are two types of NP-class problems:
+>   - NP complete
+>   - NP hard
+
+- Polynomial problem reduction
+> - Let P1 and P2 be two problems and P2 can be solved by a polynomial-time deterministic algorithm.
+> - Then, we say that P1 is polynomial time reducible to P2 if and only if there exists some transformation function f such that:
+>   - f maps input x of P1 to f(x) such that input f(x) to P2 produces same output as x would have produced for P1.
+>   - f(x) should be computable in the polynomial time of x.
+
+- NP complete problems:
+> - Let A be a decision problem.
+> - Decision problem A is called NP-complete if it has the following two properties:
+>   - It belongs to class NP.
+>   - Every other problem B in NP can be transformed to A in polynomial time.
+
+- NP hard problems:
+> - A decision problem P is called NP-hard, if every problem in NP can be reduced to P in polynomial time.
+> - NP-hard is a superset of all problems.
+> - NP-complete is NP-hard, but the converse is not true.
+
+- Prove that 3-SAT Problem is NP-complete
+- Prove that Vertex Cover Problem is NP-complete
+- NP Hard Hamiltonian Cycle Problem
+
+---
+> Done
