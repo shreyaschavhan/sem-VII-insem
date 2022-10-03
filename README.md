@@ -15,8 +15,8 @@
 
 ## 𝑵𝒐𝒕𝒆𝒔:
 
-- [Design and Analysis of Algorithms]()
-- [Machine Learning]()
-- [Block Chain Technology]()
-- [Object Oriented Modeling and Design]()
-- [Software Testing and Quality Assurance]()
+- [Design and Analysis of Algorithms](https://github.com/shreyaschavhan/sem-VII-insem/tree/main/DAA)
+- [Machine Learning](https://github.com/shreyaschavhan/sem-VII-insem/tree/main/ML)
+- [Block Chain Technology](https://github.com/shreyaschavhan/sem-VII-insem/tree/main/BT)
+- [Object Oriented Modeling and Design](https://github.com/shreyaschavhan/sem-VII-insem/tree/main/OOMD)
+- [Software Testing and Quality Assurance](https://github.com/shreyaschavhan/sem-VII-insem/tree/main/STQA)
