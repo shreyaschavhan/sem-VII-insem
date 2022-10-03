@@ -370,8 +370,75 @@ for i in range(n):
 > - NP-complete is NP-hard, but the converse is not true.
 
 - Prove that 3-SAT Problem is NP-complete
+> - What is 3-SAT Problem?
+>   - 3-SAT problem is a problem to determine the satisfiability  of a formula in conjunctive normal form (CNF) where each clause is limited to at most 3 literals. This problem is also known as 3-CNFSAT problem or 3-satisfiability problem.
+> - 3-SAT is a special case of SAT Problem and is an NP-complete problem.
+> - To prove that 3-SAT problem is NP complete, we need to prove that an instance of SAT problem is reducible to 3-SAT Problem in polynomial time.
+> - Let us start with a clause having two literals (x1, x2). We can introduce a new dummy literal u such that (x1, x2) is equivalent to (x1, x2, u)(x1,x2, ū)
+> - What if we start with a clause having one literal (x1), We will introduce two new literals u1 and u2 such that it is equivalent to (x, u1, u2)(x,ū1, u2 )(x, u1, ū2)(x, ū1, ū2)
+> - What if the clause has more than three literals (x1, x2, x3, ..... xn), we can introduce new literals and rewrite it as:
+>   - (x1, x2, u1)(x3,ū1, u2)(x4, ū2, u3).....(xn-2, ūn-4, un-3)(xn-1, xn, ūn-3)
+> - For the original clause (x1, x2, x3,...xn) to be true, one of the xi must be true. To make the equivalent clause true, we should set all ui true till xi encounters in the new arrangement.
+> - It can be seen that, if the original clause is true then it's equivalent 3-SAT representation is also satisfiable.
+> - Now, the opposite case. Suppose the . For the original clause to be not satisfiable all of the xi must be false. Let's prove this by doing a counter-argument that some of them will be true in 3-SAT equivalent representation.
+> - Now, since some of them are true, let's consider the final clause (xn-1, xn, ūn-3) to be true in 3-SAT representation.
+> - For this statement to be true, ūn-3 should be true since xn-1 and xn are already false
+> - Considering the second last clause (xn-2, ūn-4, un-3), for it to be true - since un-3 is false and xn-2 is false, ūn-4 should be true.
+> - Considering this to be the pattern, when we reach the first clause - all ui must be false and none of the xi is true either.  
+> - And hence it is proved that if the original clause is not satisfiable, then its equivalent 3SAT representation is also not satisfiable.
+> - This transformation is polynomial time transformation and hence 3SAT is an NP complete.
+
+
 - Prove that Vertex Cover Problem is NP-complete
-- NP Hard Hamiltonian Cycle Problem
+> - Vertex Cover of a graph is a set of vertices that includes at least one endpoint of every edge of the graph.
+> - Vertex Cover problem is the problem to find the minimum size vertex cover for a given undirected graph.
+> - The best way to find vertex cover is to select an edge with vertices (u, v) and delete all the adjacent edges and check if you find the vertex cover. Repeat until you actually found it.
+> - Formally, vertex cover of a graph G = (V, E) is the set of vertices such that any edge (u, v) E E, incident to at least one vertex in the cover.
+> - Proof:
+> - To prove the vertex cover problem we will reduce 3-SAT problem to the vertex cover problem. Let f be the boolean function with 3 clauses.
+> - For each literal 'a' in the clause we create an edge. Edge is the truth setting component, a vertex cover must include at least one of a or a-bar
+>
+> ![image](https://user-images.githubusercontent.com/68887544/193502047-afa56ca8-292c-474f-a15b-f9338d9011fe.png)
+>
+> - In addition to this, we add the following: for each clause Ci = (a + b + c) forms a triangle with vertices a, b and c
+>
+> ![image](https://user-images.githubusercontent.com/68887544/193502131-1d6210a8-a9e2-4997-980b-e8eb3340b722.png)
+>
+> - Any vertex cover will have to include at least two vertices from (a, b, c). Join the corresponding vertices from triangle to edge as per clause.
+> - The vertex cover of such graph contains k = n + 2m vertices, where n is the number of variables and m is the number of clauses.
+> - Let us build the graph 3-SAT Boolean function:
+> - f = (a + b + c)(a + b + c bar)(a bar + c + d bar)
+>
+> ![image](https://user-images.githubusercontent.com/68887544/193503410-c9f77ee6-2bd6-4cb3-9fe8-3966e069aa02.png)
+>
+> - According to the boolean function:
+>   - We have:
+>   - n = number of variables = 4
+>   - m = number of clauses = 3
+>   - So, using the formula, we will have k = number of vertices in vertex cover = n + 2m = 4 + 3 * 2 = 10
+> - The graph with vertex cover looks like this:
+>
+> ![image](https://user-images.githubusercontent.com/68887544/193504601-b5b2ba5d-6072-41cb-9c67-f36d02cb02f0.png)
+>
+> - Hence, it is proved that 3-SAT problem is reducible to Vertex Cover Problem in polynomial time.
+> - Hence, the vertex cover problem is NP-complete.
+
+
+
+- Hamiltonian Cycle
+> - Undirected graph G = (V, E) is called Hamiltonian if there exists a cycle which covers all the vertices in V exactly once expect starting vertex.
+> - Example:
+>
+> ![image](https://user-images.githubusercontent.com/68887544/193470971-ae715765-09c3-40e8-a38e-9ca6f10b315a.png)
+>
+> - The Hamiltonian path is formed by removing one edge from the Hamiltonian cycle.
+> - Hamiltonian path visits every vertex but does not form a cycle.
+> - To produce Hamiltonian cycle from Hamiltonian path, we may require one or more than one edges.
+> - This problem is well known as Hamiltonian cycle problem.
+> - To check if there exists a Hamiltonian cycle, permutations of all vertices are examined. Such n! different permutations are possible for a graph having n vertices.
+> - Checking the graph for the Hamiltonian cycle is very slow using the brute force approach.
+> - We cannot find the solution in deterministic polynomial time. Hence, this is an NP Problem.
+
 
 ---
 > Done
