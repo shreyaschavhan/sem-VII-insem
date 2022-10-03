@@ -380,7 +380,7 @@ for i in range(n):
 >   - (x1, x2, u1)(x3,ū1, u2)(x4, ū2, u3).....(xn-2, ūn-4, un-3)(xn-1, xn, ūn-3)
 > - For the original clause (x1, x2, x3,...xn) to be true, one of the xi must be true. To make the equivalent clause true, we should set all ui true till xi encounters in the new arrangement.
 > - It can be seen that, if the original clause is true then it's equivalent 3-SAT representation is also satisfiable.
-> - Now, the opposite case. Suppose the . For the original clause to be not satisfiable all of the xi must be false. Let's prove this by doing a counter-argument that some of them will be true in 3-SAT equivalent representation.
+> - Now, the opposite case. Suppose the original clause is not satisfiable. For the original clause to be not satisfiable all of the xi must be false. Let's prove this by doing a counter-argument that some of them will be true in 3-SAT equivalent representation.
 > - Now, since some of them are true, let's consider the final clause (xn-1, xn, ūn-3) to be true in 3-SAT representation.
 > - For this statement to be true, ūn-3 should be true since xn-1 and xn are already false
 > - Considering the second last clause (xn-2, ūn-4, un-3), for it to be true - since un-3 is false and xn-2 is false, ūn-4 should be true.
