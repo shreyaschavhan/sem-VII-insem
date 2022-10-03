@@ -82,6 +82,23 @@
 >   - Tree models : `If` part of the rules are organized in a tree structure.
 >   - ^ Both uses same approach to Supervised Learning
 
+- Grouping Models:
+> - Model that breaks the instance space into groups or segments is called as the grouping model.
+> - The number of groups is determined at the training time.
+
+- Grading Models:
+> - Model that form one global model over the instance space is known as grading model.
+
+`^ This needs to be done properly tomorrow. : Grouping and Grading Model`
+
+- Parametric Models:
+> - Models that requires a fixed number of parameters to build the model is called as parametric models.
+
+- Non-parametric Models:
+> - Models that does not require any specific parameter setting is known as non-parametric model.
+
+
+
 
 ## 𝐔𝐧𝐢𝐭 𝐈𝐈: 𝐅𝐞𝐚𝐭𝐮𝐫𝐞 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫𝐢𝐧𝐠
 
