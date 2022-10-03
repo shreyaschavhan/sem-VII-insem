@@ -380,11 +380,15 @@ for i in range(n):
 >   - (x1, x2, u1)(x3,ū1, u2)(x4, ū2, u3).....(xn-2, ūn-4, un-3)(xn-1, xn, ūn-3)
 > - For the original clause (x1, x2, x3,...xn) to be true, one of the xi must be true. To make the equivalent clause true, we should set all ui true till xi encounters in the new arrangement.
 > - It can be seen that, if the original clause is true then it's equivalent 3-SAT representation is also satisfiable.
-> - Now, the opposite case. Suppose the original clause is not satisfiable. For the original clause to be not satisfiable all of the xi must be false. Let's prove this by doing a counter-argument that some of them will be true in 3-SAT equivalent representation.
-> - Now, since some of them are true, let's consider the final clause (xn-1, xn, ūn-3) to be true in 3-SAT representation.
+> - Now, the opposite case. Suppose the original clause is not satisfiable. For the original clause to be not satisfiable all of the xi must be false. Let's prove this by doing a counter-argument that 3-SAT equivalent representation is satisfiable.
+> - For it to be satisfiable, all of the clauses must be true.
+> - let's start with the final clause (xn-1, xn, ūn-3) to be true in 3-SAT representation.
 > - For this statement to be true, ūn-3 should be true since xn-1 and xn are already false
 > - Considering the second last clause (xn-2, ūn-4, un-3), for it to be true - since un-3 is false and xn-2 is false, ūn-4 should be true.
-> - Considering this to be the pattern, when we reach the first clause - all ui must be false and none of the xi is true either.  
+> - Considering this to be the pattern, when we reach the first clause - all ui must be false and none of the xi is true either.
+> - In this way, the first clause (x1, x2, u1) returns false since all three literals returns false i.e. x1, x2 and u1.
+> - Considering this: We have F ^ T which is equal to F which contradicts our assumption of 3-SAT representation to be satisfiable.  
+> - Hence, 3-SAT representation is not satisfiable if SAT is not satisfiable.
 > - And hence it is proved that if the original clause is not satisfiable, then its equivalent 3SAT representation is also not satisfiable.
 > - This transformation is polynomial time transformation and hence 3SAT is an NP complete.
 
