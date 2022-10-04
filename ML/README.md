@@ -109,3 +109,15 @@
 
   <br>
 </div>
+
+
+- Concept of Feature:
+> - A feature is a numeric representation of raw data.
+
+- Feature Engineering:
+> - The process of formulating the most appropriate features given the data, the model and the task.
+> - It usually includes:
+>   - Feature Extraction : Creating new features from existing features
+>   - Feature Transformation : Replace missing features
+>   - Feature selection : filter irrelevant or redundant features from the dataset
+>   - Feature Creation : Identifies relevant features
