@@ -121,3 +121,62 @@
 >   - Feature Transformation : Replace missing features
 >   - Feature selection : filter irrelevant or redundant features from the dataset
 >   - Feature Creation : Identifies relevant features
+
+- Preprocessing of Data:
+> - The process of preparing raw data for building machine learning model is called as Preprocessing of data.
+> - Real world data may contain noise, missing values and may be in an unusable format. Hence, it is necessary for the data to be preprocessed so that we could improve the accuracy and efficiency of the machine learning model.
+> - Following steps are involved in it:
+>   - 1. Get the dataset
+>   - 2. Importing libraries
+>   - 3. Importing the dataset
+>   - 4. Handling the missing values
+>   - 5. Encoding the categorical data
+>   - 6. splitting the dataset into training and test set
+>   - 7. Feature Scaling
+
+- Normalization and Scaling:
+> - In scaling, we transform the range of the distribution of the data.
+> - In normalization, we transform the shape of the distribution of the data.
+> - Scaling is done to fit the data into a defined scale.
+> - Normalization is done to change our observations so that they can be described as  a normal distribution.
+
+- Types of Scaling:
+> - Simple-feature Scaling:
+>   - Divide each raw value data by maximum value for the feature.
+>   - Results in values between 0 to 1.
+>   - Usually done on image data, where each value is divided by 255 (maximum image pixel intensity)
+>
+> - Min-max scaling:
+>   - Takes each value and subtract the minimum, then divide it by the range(max-min).
+>   - Resultant value ranges between 0 to 1.
+>   
+
+- Types of normalization:
+> - Z-score or standard score:
+>   - values are normalized using standard deviation and mean of the entire data.
+>
+> - Box-cox transformation:
+>   - Normalization of non-normal dependent variable into normal shape.
+
+- Standardization:
+> - Standardization is done when the feature are measured in different measurement units.
+> - Z-score is one of the most popular method to standardize the data.
+> - Once the Standardization is done, all the features will have a mean of zero, and a standard deviation of 1 and thus, the same scale.
+
+- Managing the missing values:
+> - Delete the row
+> - Fill in the missing value manually
+> - Use a global constant to fill in the missing value.
+> - Use a measure of central tendency for attributes to fill in the missing value
+> - Use the most probable value to fill in the missing value.
+
+- Introduction to Dimensionality Reduction:
+> - Dimensionality: No. of input variables or features in a dataset is called as dimensionality.
+> - Dimensionality reduction is a technique that reduces the number of input variables in a dataset.
+> - Two main components:
+>   - Feature selection
+>   - Feature extraction
+> - Dimension reduction techniques:
+>   - Principal Component Analysis (PCA)
+>   - Linear Discriminant Analysis (LDA)
+>   - Generalized Discriminant Analysis
