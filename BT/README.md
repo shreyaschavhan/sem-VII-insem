@@ -34,6 +34,13 @@
 > - Example: RSA, DSA, and ElGammal.
 > - They are slower as compared to symmetric key algorithm in terms of computation and hence isn't used for large sized data.
 
+- Elliptic Curve Cryptography (ECC):
+> - Collection of points that satisfies a specific mathematical equation is known as Elliptic curve cryptography.
+> - Elliptic curve equation look something like this:
+>   - `y^2 = x^3 + ax + b`
+> -
+
+`Will study tomorrow, I think! My brain isn't working`
 
 
 
