@@ -17,7 +17,25 @@
 > - The field of study that deals with the study of secure communication techniques which allows only the sender and intended recipient of a message to view its contents.
 
 - Symmetric Cryptography:
-> -
+> - Kind of Cryptography where encryption key is same as the decryption key.
+> - Also known as secret key Cryptography or shared key Cryptography or private key cryptography.
+> - Key needs to be established before any communication begins.
+> - Types:
+>   - Stream Cipher
+>     - Applies the encryption algorithms one bit at a time.
+>   - Block cyphers
+>     - Applies the encryption algorithm block by block after dividing the plain text into blocks of a predefined size.
+>     - Example: DES and AES i.e. Data Encryption Standard & Advanced Encryption Standard.
+
+- Asymmetric Cryptography:
+> - Kind of cryptography where encryption key is distinct from the decryption key.
+> - Another name is public key cryptography.
+> - It uses both public as well as private keys.
+> - Example: RSA, DSA, and ElGammal.
+> - They are slower as compared to symmetric key algorithm in terms of computation and hence isn't used for large sized data.
+
+
+
 
 ## 𝐔𝐧𝐢𝐭 𝐈𝐈 : 𝐅𝐞𝐚𝐭𝐮𝐫𝐞 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫𝐢𝐧𝐠
 
@@ -30,10 +48,15 @@
 </div>
 
 
+- Layers of blockchain:
+> - Application Layer
+> - Execution Layer
+> - Semantic Layer
+> - Propagation Layer
+> - Consensus layer
 
 
-
-Why blockchain is important?
+- Why blockchain is important?
 > - Blockchain and it's use is important because of following properties and functionality that it provides:
 >   - Security: Blockchain being trustless protocol and it having decentralized nature makes blockchain very secure.
 >   - Transparency: Every change, every detail and everything is very transparent as everything is visible to all the participants in consideration.
