@@ -54,13 +54,40 @@
   <br>
 </div>
 
+- Centralized Systems:
+> - Centralized systems are the systems that works on client-server system architecture in which a central authority has every rights and is incharge of the system.
+> - For example, you are messaging someone on facebook. Facebook is the one that verifies the message is valid, and then delivers the message to the user.
+
+- Advantage of Centralized system:
+> - Reduced cost
+> - Quick decision implementation.
+> - Command chain.
+
+- Limitation of Centralized system:
+> - Security
+> - Trust
+> - Privacy
+> - Single point of failure
+> - Scalable limitation
+> - Inflexibility
+> - Access and diversity
+
+- Decentralized System:
+> - They are the systems where each node is master of it's own, i.e. there doesn't exist any master node for nodes in the system.
+> - Blockchain Technology made decentralization possible.
+
+- Advantages of Decentralization:
+> - Provides a trustless environment.
+> - improves data reconciliation
+> - Reduces points of weakness
+> - Optimizes resource distribution.
 
 - Layers of blockchain:
-> - Application Layer
-> - Execution Layer
-> - Semantic Layer
-> - Propagation Layer
-> - Consensus layer
+> - Application Layer : The user can code desired functionality and build the application.
+> - Execution Layer : It operates the execution of all the instructions that were defined in application layer.
+> - Semantic Layer: This layer is used for the validation of blocks created in the network and also validating the transactions performed in the blockchain.
+> - Propagation Layer: It handles the peer-to-peer communications between the network nodes.
+> - Consensus layer: The main aim of this layer is to make sure that all the nodes must agree on a common state of the shared ledger, the layer also works on the security and safety of the blockchain.
 
 
 - Why blockchain is important?
