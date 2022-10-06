@@ -40,8 +40,51 @@
 >   - `y^2 = x^3 + ax + b`
 > -
 
-`Will study tomorrow, I think! My brain isn't working`
+`^Will study tomorrow, I think! My brain isn't working`
 
+- Cryptographic hash functions:
+> - A one way function which generates a fixed length output string for any kind of variable length input string is called as cryptographic hash function.
+> - We can't compute input using the output and hence it is a one way function.
+> - Properties:
+>   - Pre-image resistance.
+>   - Weak collision resistance.
+>   - Collision resistance.
+
+- Digital Signature Algorithm (DSA):
+> - DSA stands for Digital Signature Algorithm.
+> - Digital signature algorithm is used for digital signature and its verification.
+> - It is based on the mathematical principle of modular exponentiation and discrete logarithm.
+> - It involves 4 steps:
+>   - Key generation
+>   - Key distribution
+>   - Signing
+>   - Signature verification
+>
+> - Steps at signer's end:
+>   - Message or hash is hashed using a hashing function to a create a digest.
+>   - Sender uses the private key to sign the generated digest in step 1 using the signature algorithm.
+>
+> - Steps at receivers end:
+>   - Recipient on receiving the data and signature runs a verifier algorithm and used sender's public key.
+>   - If the generated hash value from above step matches the hash value sent by the sender, then the recipient is satisfied with the data and the signature. Else if matching fails the signature of the sender is not valid.
+> - The digital signature process can be divided into 2 steps:
+>   - Signature generation
+>   - Signature verification
+
+
+- Merkel Tree:
+> - Merkel tree is a binary tree in which each node contains hash pointers.
+> - Merkel tree is used to verify the authenticity of the data being sent or received.
+> - Merkel tree is also known as binary hash tree.
+> - In merkel tree, each node other than leaf nodes are hash of every children node of the given node.
+> - It employs hash function to preserve the integrety of the data.
+> - An input of data is broken up into blocks labeled D1 to D4. Each of these blocks are then hashed using a hash function.
+> - Then each pair of nodes are recursively hashed until we reach the root node, which is a hash of all nodes below it.
+> - The root node of the merkel tree is known as merkel root.
+> - When data is shared among parties, then data is shared using regular channel and merkel root is shared using secure channel.
+> - Intermediate hash values can be shared from regular or secure channels as per requirements.
+> - As data stars coming in, the verifier verifies the data by hashing each node and comparing it with the hash values received for that segment.
+> - After the entire document is received, the merkel root computed will be compared with the merkel root received from the secure channel. If data is manipulated in the process, then value of hash and in turn merkel root would change and this will help the verifier verify the authenticity of the data.
 
 
 ## 𝐔𝐧𝐢𝐭 𝐈𝐈 : 𝐅𝐞𝐚𝐭𝐮𝐫𝐞 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫𝐢𝐧𝐠
@@ -115,3 +158,5 @@
 >   - Telecommunication
 >   - Travel and transport
 >   - etc.
+
+---
