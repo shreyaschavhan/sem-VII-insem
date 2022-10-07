@@ -22,6 +22,86 @@
 >   - Inheritance: Allowing the class to share properties of another class in hierarchical manner.
 >   - Polymorphism: Same operation can be defined differently for the different classes.
 
+- What is OO Development?
+> - Design and Development of software according to software development life cycle on the basis of OO Principles is known as OO development.
+> - The oo development contains following steps:
+>   - System conception
+>   - Analysis
+>   - System Design
+>   - Class Design
+>   - implementation
+
+- The three models:
+> - There are three kind of models to describe a system:
+>   - State model:
+>     - Describes aspects of an object that change over time.
+>     - Contains state diagrams
+>   - Class model:
+>     - Describes static structure of objects in a system.
+>     - Contains class diagrams
+>   - Interaction model:
+>     - Describes how the objects interacts with the system to achieve results.
+>     - Contains interaction diagrams
+
+- OO Themes:
+> - There exists various themes for OO development and design
+> - Some of the most essential among them are:
+>   - Abstraction: Abstraction stands for hiding overall details and only looking at the information which is appropriate at a given instance.
+>   - Encapsulation: Wrapping up functions into a single entity i.e. class is known as encapsulation
+>   - Sharing: Also known as inheritance, share data structure and behavior with other subclasses.
+
+- Evidence for usefulness of OO development:
+> - OO development at General Electric Research and Development Research used OO techniques for developing compilers, graphics, user interface, database, oo language, cad systems, simulations, metamodes, control system, tec.
+>
+
+- Modelling as design technique:
+> - Understand something by building a model before building something in real is known as modelling.
+> - We use modelling as a design technique where ever we require
+>   - Testing of a physical entity before building it
+>   - Communication with customers
+>   - Visualization
+>   - Reduction of complexity
+
+- Abstraction:
+> - Abstractions stands for hiding everything except which is necessary in order to increase efficiency and reduce complexity.
+
+- The three models:
+> - Class models
+> - State models
+> - Interaction models
+
+- Class modeling:
+> - Modelling and organizing objects inside classes is called as class modelling.
+
+- Object and class concept:
+> - Object: Objects are data fields that has unique attributes and behaviors.
+> - Class: Class is the collection of objects with similar attributes and behaviors.
+
+- Link and association concepts:
+> - Links and associations are mean for establishing relationships.
+> - Link: Semantic/physical connectivity between two objects is called as a link.
+> - Association: Semantic/physical connectivity between two classes is called as a link.
+> - Aggregation, Multiplicity, Composition
+> - Aggregation:
+>   - a special form of association where:
+>   - the association represents has-a relationships
+>   - which is unidirectional and
+>   - each entity can survive individually.
+> - Composition:
+>   - Is a restricted version of Aggregation where:
+>   - association represents part-of relationship
+>   - and each entity cannot exists without existence of other entity.
+
+
+- Generalization and Inheritance:
+> - Generalization:
+>   - is the relationship between class and one or more variations of the class.
+>   - Generally called as `is-a` relationship.
+>   - Has 3 purposes:
+>     - Support for Polymorphism
+>     - To structure the description of objects
+>     - Enable reuse of code 
+
 
 
 
