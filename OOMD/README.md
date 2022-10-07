@@ -36,3 +36,47 @@
 
   <br>
 </div>
+
+
+- Advanced objects and class concept:
+> - Advanced class are special types of classes that can be used to be represented in UML diagram. These are:
+>   - Enumeration
+>   - Multiplicity
+>   - Scope
+>   - Visibility
+> - Enumeration: Enumeration is a primitive data type which can have a finite set of values and can be modelled as classes.
+> - Multiplicity: Multiplicity denotes how many objects can be associated with particular object.
+> - Scope: Scope represents whether a feature is available for a class or not.
+>   - There are 2 types of scope in UML:
+>     - Static scope
+>     - Object/Instance scope
+> - Visibility: It represents how the attributes and operations are visible in the system.
+>   - There are 4 levels of Visibility:
+>     - public
+>     - protected
+>     - private
+>     - package
+
+
+- Association ends:
+> - Endpoints of association relationship is called as association ends.
+
+- n-ary Association:
+> - Association is a structural relationship between two classes.
+> - It can be shown by drawing a solid line between two classes.
+> - Association between two classes are called binary.
+> - Association between three classes are called ternary.
+> - Association between three or more classes are called n-ary association.
+
+- Aggregation:
+> - Aggregation is a type of Association
+> - It is used to represent whole-part relationship.
+> - It normally posses has-a relationship
+> - For example: car has a dvd player
+
+- Abstract classes:
+> - Abstract classes are those classes which do not have any direct instances.
+> - When generalization is modelled, the abstract classes are at the top level and other classes are at the bottom.
+
+- Concrete classes:
+> - Concrete classes are those classes who have direct instance.
