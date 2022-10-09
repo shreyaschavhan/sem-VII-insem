@@ -55,7 +55,7 @@
 >   - check if there exists any defects in the software and prevent them.
 >   - check if the software passes all the defined test cases it was designed for and validate them.
 >   - check if the software meet defined requirements
->   - build confidence that the product is build as it was designed.
+>   - build confidence among stakeholders and developers that the product is build as it was designed.
 >   - identify, analyze and reduce risk
 >   - find chances of failure and technological durability of the product.
 
