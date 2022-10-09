@@ -139,6 +139,46 @@
 >   - TQM follows PDCA cycle.
 >   - PDCA stands for plan-do-check-act.
 
+- Quality Control:
+> - A process by which services/products are measured and tested to ensure that the quality of a product is maintained and improved against a set of benchmark so that any error that occurs can be either eliminated or reduced is known as quality control.
+
+- Quality Management through - statistical process control
+> - Statistical process control(SPC) is a quality control method that uses statistical techniques to monitor and control processes.
+> - We can track the process and progress of products in real-time using SPC making SPC a good technique that facilitates real-time tracking.
+
+- Quality Management through - cultural changes:
+> - The method of managing, building and improving quality of the product by making required cultural changes in the organization is known as quality management method through cultural changes.
+
+- Continual Improvement cycle:
+> - The method of quality improvement that makes use of an iterative four-step management cycle known as PDCA cycle is known as continual improvement cycle method.
+> - The term PDCA stands for Plan, Do, Check, Act.
+> - PDCA is usually used in TQM.
+> - The diagram:
+>
+> ![image](https://user-images.githubusercontent.com/68887544/194768336-ec011441-e397-4a17-80b8-47d60a8e2f58.png)
+>
+> OR
+>
+> ![image](https://user-images.githubusercontent.com/68887544/194768423-fba48e3e-5f97-4b72-92b1-ae1dbcefd764.png)
+>
+> - Plan: Recognize an opportunity and define steps to reach the expected outcomes in quantifiable terms and plan actions for deviations.
+> - Do: Execute the plan to achieve decided outcomes in small-scale.
+> - Check: Check the outcomes to make sure they are correct.
+> - Act: Apply the change on a large scale. Compare the planned and actual outcomes and if the change fails modify the plan.
+
+- Benchmarking:
+> - Comparing various quantitative and qualitative variables of a specific process/method against variables of another methods that are widely considered to be an industry standard or best Practices are known as benchmarking.
+> - The variables can be - cost, time, defect count, satisfaction level, functionalities, etc.
+> - Types of benchmarking:
+>   - process Benchmarking
+>   - financial benchmarking
+>   - performance benchmarking
+>   - product benchmarking
+>   - strategic benchmarking
+>   - functional benchmarking
+
+- Metrics:
+> - Performance/Quality measurements that are defined for collecting information about the products capabilities, process variability and outcome in terms of attributes is known as metrics.
 
 ## 𝐔𝐧𝐢𝐭 𝐈𝐈: 𝐓𝐞𝐬𝐭 𝐏𝐥𝐚𝐧𝐧𝐢𝐧𝐠 𝐚𝐧𝐝 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭
 
