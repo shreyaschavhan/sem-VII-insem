@@ -180,6 +180,58 @@
 - Metrics:
 > - Performance/Quality measurements that are defined for collecting information about the products capabilities, process variability and outcome in terms of attributes is known as metrics.
 
+- Problem solving techniques and tools (`will do later!`)
+
+- Software Quality:
+> - A software's conformance to the specifications is known as software quality.
+
+- Software Quality Attributes: (`may be important`)
+> - Testability: how easy it is to test the software.
+> - Usability: how user friendly the software is.
+> - Understandability: how easily the software can be understood by the layman.
+> - Consistency: how uniform is the software in terms of everything.
+> - Efficiency: how efficient is the software.
+> - Accuracy: how accurate are the results.
+> - Maintainability: how easily the software can be maintained.
+> - Reliability: how reliable is the software.
+> - Portability: how easily the software can be transported and run in different environments.
+> - Security: How secure is the software in terms of sensitive data and access.
+> - Robustness: how robust is the software under unexpected events.
+
+- Constraints of software product quality assessment:
+> - A smaller organization may not have the required resources like manpower, capital, etc to perform software quality assessment.
+
+- Quality and Productivity Relationship (`will do later!`)
+
+- Requirements of Product:
+> - Stated and implied requirements : stated means the product requirements are defined and stated in the document, where as implied means the product requirements which ain't mentioned but should be met.
+> - General and specific requirements: Specific requirements are the requirements that specifies the requirement needed for example output should have 3 digit precision. General requirements are requirements which are generic in nature.
+> - Present and Future requirements: Present requirements are current. Future requirements are requirements that needs to be met by the product in future.
+
+- Software Development Processes:
+> - A structured way of developing software for a system or project is known as software development process.
+> - Steps:
+>   - Planning
+>   - Implementation
+>   - Testing
+>   - Deployment and maintenance.
+
+- Types of products:
+> - Two types:
+>   - Generic : Software products which were developed with the target to sell them to customer eligible to buy with no customization for any specific customer are called generic software products. These software products are stand-alone, can be up-gradable to new versions or updates while the updates are prepared by the software company or vendor who developed the product.
+>   - Customized: Software products which were developed as per the requirements of a specific customer. Customized software products means a piece of software customized in case of features, workflow, design, language etc. or with additional features included or removed features and financed by a customer as the development cost or price of the software being developed.
+
+- Software Development Life Cycle Models:
+> - Waterfall model: One sdlc phase at a time.
+> - Incremental model: Building model in parts and adding capabilities in a series of increments.
+> - Spiral model: More details are added with each loop or iteration.
+> - etc.
+
+- Software quality management:
+> - Management process/ methods used to develop and manage the quality of software to make sure product meets specified quality standards is known as software quality management.
+
+`everything else - will do tomorrow!`
+
 ## 𝐔𝐧𝐢𝐭 𝐈𝐈: 𝐓𝐞𝐬𝐭 𝐏𝐥𝐚𝐧𝐧𝐢𝐧𝐠 𝐚𝐧𝐝 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭
 
 <div align=center>
