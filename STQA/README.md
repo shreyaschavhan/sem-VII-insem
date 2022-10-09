@@ -51,34 +51,78 @@
 > - Suppliers and Customers both maybe inside or outside of the organization.
 
 - Objectives of Testing:
-> - Prevent Defects
-> - Evaluate work products
-> - Verify requirements
-> - Validate test objects
-> - Build confidence
-> - Reduce Risk
-> - Share information to stakeholders
-> - Find failures and defects
+> - The objectives of testing are to:
+>   - check if there exists any defects in the software and prevent them.
+>   - check if the software passes all the defined test cases it was designed for and validate them.
+>   - check if the software meet defined requirements
+>   - build confidence that the product is build as it was designed.
+>   - identify, analyze and reduce risk
+>   - find chances of failure and technological durability of the product.
 
 - Testing and Debugging:
 > - Testing:
->   - Testing is the process of verifying and validating that a software or application is bug free, meets the technical requirements as guided by its design and development, and meets the user requirements effectively and efficiently by handling all the exceptions and boundary cases.
+>   - The process of verifying and validating if the product is bug free and meet all the defined user as well as customer requirements is known as testing.
 >
 > - Debugging:
->   - Debugging is the process of fixing bugs. It can be defined as identifying, analyzing and removing bugs.
->   - This activity begins when the software fails to execute properly and ends with solving the problem underlying.
+>   - The process of identifying, analyzing and removing errors that cause failure is known as debugging.
+>   
 
 - Need of testing:
-> - Because testing helps in:
->   - Identification and removal of errors.
->   - checking software adaptability.
->   - avoiding risks
->   - avoiding extra costs
->   - accelerate fault free software development.
->   - achieving and assuring high quality product
+> - There is a need for testing because testing helps us in:
+>   - identification, analysis and removal of errors.
+>   - checking if the software is adaptable to different test cases and scenarios.
+>   - checking if there exists any risk
+>   - checking if the project meet the requirement specified beforehand.
+>   - making sure if the software is bug free and user friendly.
+
 
 - Quality Assurance and Testing:
-> - 
+> - Quality Assurance:
+>   - The process of making sure if the product is high quality and meets defined quality standards is known as quality assurance.
+> - Testing:
+>   - The process of verifying and validating the correctness of features and functionalities of the product is known as testing.
+
+- Difference between quality assurance and testing:
+> Quality Assurance | Testing
+> --- | ---
+> Process of making sure if the product meets specified quality requirements | Process of verifying and validating features and functionality for correctness
+> It includes each step of software development | It is done at the end of development
+> Ensure the quality by checking all the procedures and processes are in place | validate specifications against likely and unlikely inputs
+> Focuses on processes to achieve quality | Focuses on actual testing of the final product to make sure if it's working properly
+> It's process oriented | It's Product oriented
+> It's preventive method | It's corrective method
+> Assures quality | Controls quality
+
+- Why software has errors, defects and failures?
+> - Because of:
+>   - Poor specification of requirements
+>   - Complexity of feature required
+>   - Logical falsies while writing the code.
+>   - Programming errors.
+>   - Use of Obsolete libraries and methodologies
+>   - Lack of skilled developers.
+>   - Badly written and poorly documented code.
+
+- Relationship between errors, defects and failures:
+> - An error cause defect which if not removed might cause failure.
+> - Error ---(leads to)---> Defect ---(leads to)--->  Failure
+
+- Causes of errors, defects and failure:
+> - Developer was pressurized to complete the project within impossible time constraints and not given enough time to think and write efficient code.
+> - Human mistakes leading to errors, defects and failure.
+> - Inexperienced or insufficiently skilled developer or project contributor.
+> - Miscommunication between project participants.
+> - Feature way too complex to design and code.
+> - Use of new or unfamiliar technological stack.
+> - Improper environmental conditions.
+
+- Effects of errors, defects and failures:
+> - A lot of errors, defects and failures of software will cause technical debt and the project will not be able to met the specified deadline.
+> - Fixing EDF (errors, defects and failures `don't use this short form in exam`) might take a long time.
+> - Increase in time might lead to increase in the cost of the product (because developers need to be paid for the time they spend developing the product.)
+> - EDF might cause the software to produce unintended or unexpected results.
+> - Product might fail to deliver what it was meant to deliver.
+
 
 ## 𝐔𝐧𝐢𝐭 𝐈𝐈: 𝐓𝐞𝐬𝐭 𝐏𝐥𝐚𝐧𝐧𝐢𝐧𝐠 𝐚𝐧𝐝 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭
 
