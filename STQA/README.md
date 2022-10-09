@@ -123,6 +123,22 @@
 > - EDF might cause the software to produce unintended or unexpected results.
 > - Product might fail to deliver what it was meant to deliver.
 
+- Total Quality Management (TQM):
+> - A Management process that make sure all work and process to build the software aims towards the common goal of improving the overall quality or service or the product.
+> - It is a continuous process of testing, quality assurance, supply chain management to improve the customer experience.
+> - It aims to hold all parties involved in building the product accountable for the overall quality of the final product.
+> - TQM is applicable to all aspects of the organization i.e. all business processes.
+
+- Quality Practices of TQM:
+> - Continuous improvement process (CIP): The main aim is to continuously work and improve the overall quality of the product at every stage from start to finish.
+> - Zero Defects: The product or service  should not have any defects meaning the product should be of the most superior quality.
+> - Six Sigma:
+>   - TQM follows Six Sigma Method/principle
+>   - Six Sigma Method is a method of calculating measurable improvements or defects in a product.
+> - PDCA cycle:
+>   - TQM follows PDCA cycle.
+>   - PDCA stands for plan-do-check-act.
+
 
 ## 𝐔𝐧𝐢𝐭 𝐈𝐈: 𝐓𝐞𝐬𝐭 𝐏𝐥𝐚𝐧𝐧𝐢𝐧𝐠 𝐚𝐧𝐝 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭
 
