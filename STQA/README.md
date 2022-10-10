@@ -20,8 +20,10 @@
 `^ I don't think it would be that important but will do later if time permits`
 
 - Definition:
+> `Software testing`
+> - The method of validating and verifying if the developed product matches expected requirements is known as software testing.
 > `Software Quality Assurance`
-> - SQA is a process which guarantees that all software engineering progressions, methods, activities and work items are examined and comply contradiction of the defined standards.
+> - The way of making sure if the software is good enough and meet all defined quality requirements is known as Software quality assurance.
 >
 > `Software Quality`
 > - Software Quality means how well the software is designed and how well the software conforms to that design.
@@ -37,6 +39,15 @@
 >   - Improve: Continuous and continual improvement methods should be followed by the organization.
 > - Efforts for improvement
 > - Continual / Continuous Process Improvement
+
+- Core components of software testing:
+> - Requirement analysis
+> - Test planning
+> - Test specification 
+> - Test execution
+> - Test Recording
+> - Test verification
+> - completion
 
 - Continuous and Continual Improvement difference:
 
