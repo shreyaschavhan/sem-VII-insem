@@ -285,3 +285,43 @@
 
   <br>
 </div>
+
+- Artifacts & Strategy:
+> - Deliverables expected at the end of the planning is known as Artifacts.
+> - A strategy is a set of guidelines that explains test design and determines how testing needs to be done.
+
+- Test organization:
+> - Organizing resources required for testing i.e. who will do what and what needs to be done, etc. is known as test organization.
+
+- Test manager:
+> - Key person in the testing group.
+> - Takes responsibilities of making test strategies and managing resources including people.
+>
+
+- Tester role:
+> - The role of tester is to test if the software is bug free or not and if the software meets quality standards or not.
+> - Tester is expected to have sound knowledge of software test design and test execution methodologies.
+
+- Test plan purpose and content:
+> - The purpose of test plan is to determine the efforts needed to validate and verify the quality of the application and define steps to do that.
+> - Test plan contents:
+>   - Scope of Testing
+>   - Item pass/fail criteria
+>   - Suspension criteria and resumption requirement.
+>   - Test Deliverables
+>   - Testing tasks
+>   - Responsibilities
+>   - Resource Planning
+>   - Schedule
+>   - Risks and contingencies
+>   
+
+- Test Strategy and approach:
+> - Test strategy is an outline that describes the testing approach of the software development cycle.
+> - Test strategy implementation of a project is known as test approach.
+> - Test approach has two techniques:
+>   - Proactive
+>   - Reactive
+
+- Test cases and test data:
+> - A documentation which specifies input values, expected output and the preconditions for executing the test.
