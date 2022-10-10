@@ -43,7 +43,7 @@
 - Core components of software testing:
 > - Requirement analysis
 > - Test planning
-> - Test specification 
+> - Test specification
 > - Test execution
 > - Test Recording
 > - Test verification
@@ -68,7 +68,7 @@
 >   - check if the software meet defined requirements
 >   - build confidence among stakeholders and developers that the product is build as it was designed.
 >   - identify, analyze and reduce risk
->   - find chances of failure and technological durability of the product.
+>   - find chances of failure and determine technological durability of the product.
 
 - Testing and Debugging:
 > - Testing:
