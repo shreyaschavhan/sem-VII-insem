@@ -229,8 +229,52 @@
 
 - Software quality management:
 > - Management process/ methods used to develop and manage the quality of software to make sure product meets specified quality standards is known as software quality management.
+> - 3 attributes:
+>   - Quality Assurance
+>   - Quality planning
+>   - Quality control
 
 `everything else - will do tomorrow!`
+
+- Processes Related to software quality:
+> - Vision
+> - Mission
+> - Policy
+> - Objectives
+> - Strategy
+> - goal
+> - Value
+
+- Quality Management System Structure:
+> - Quality Management System is a system which is used to manage tasks of quality management i.e. quality assurance, planning and control.
+> - Structure of QMS:
+>   - Every organization has its own structure.
+>   - Tier 1: Quality Policy
+>   - Tier 2: Quality objectives
+>   - Tier 3: Quality Manual.
+
+- Pillars of QMS:
+> - Pillar 1: Quality Process, Procedure, methods and work instruction.
+> - Pillar 2: Guidelines and formats
+> - Pillar 3: Formats and templates used for tracking projects, function, department information.
+
+- Important aspects of quality management:
+> - QP (quality planning) at organizational level
+> - QP at project level
+> - Resource Management
+> - Work environment
+> - Customer related processes
+> - QMS document and data control
+> - Verification and validation
+> - Software project management
+> - Software configuration management
+> - Software metrics and measurement
+> - Software quality audits
+> - Subcontract management
+> - Information Security Management
+> - Management Review
+
+
 
 ## 𝐔𝐧𝐢𝐭 𝐈𝐈: 𝐓𝐞𝐬𝐭 𝐏𝐥𝐚𝐧𝐧𝐢𝐧𝐠 𝐚𝐧𝐝 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭
 
