@@ -324,4 +324,52 @@
 >   - Reactive
 
 - Test cases and test data:
-> - A documentation which specifies input values, expected output and the preconditions for executing the test.
+> - Test cases are events or action that may serve as a guide to the likely outcome of subsequent similar situations.
+> - Input data and expected output data that are defined inside each test cases are known as test data.
+
+- Test entry-exit criteria:
+> - Minimum set of conditions that should be met in order to start the testing work is known as test entry criteria.
+> - Minimum set of conditions that should be met in order to exit or close a particular project phase is known as test exit criteria.
+
+- Test execution schedule:
+> - The process of executing the code and comparing expected results with the actual ones is known as test execution.
+> - The way of defining which task should be executed/triggered when is known as test execution schedule.
+
+- Use case testing:
+> - A testing technique that helps identifying test cases that cover entire system on a transaction by transaction basis from start to end is known as use case testing.
+> - Use cases are defined as how the system will be used by the actor or user in consideration and the use case testing stands for testing the software on the basis of use cases is known as use case testing.
+> - Use case is a description of how the user will interact with the software we have designed.
+
+- Scenario Testing:
+> - Software testing technique that makes use of actual or real scenarios for testing the software application instead of test cases is known as scenario testing.
+> - The purpose of scenario testing is to test end-to-end scenarios for a specific complex problem of the software.
+
+- Test monitoring and control:
+> - Test monitoring is the process of evaluating and providing feedback on the "currently in progress" testing phase.
+> - Test control is an activity of guiding and taking corrective action based on some metrics or information to improve efficiency and quality.
+
+- Test metrics:
+> - Quantitative measures used to estimate the progress, quality, productivity and health of the software test is known as test metrics.
+
+- Test case productivity:
+> - Test case preparation productivity: no. of test case / actual effort expended in test case preparation.
+> - Test case execution productivity: no. of test case / actual effort expended in testing.
+> - Preparation: metrics used to calculate the number of test cases prepared by team in comparison with the efforts they have put in.
+> - Execution: metrics used to calculate the number of test cases executed by team in comparison with the efforts they have put in.
+
+- Test case coverage:
+> - It defines how many defined number of requirements are covered after running the given test cases.
+> - It is defined as a technique which determines whether out test cases are actually covering the application code and how much code is exercised when we run those test cases.
+
+- Defect acceptance and rejection:
+
+- Test efficiency:
+> - how effectively testing is done or goal is achieved that meets specified requirements is known as test efficiency.
+
+- Efforts and schedule variance:
+> - Effort variance:
+>   - difference between planned outline effort and the effort required to actually undertake the task is known as effort variance.
+> - Schedule variance:
+>   - difference between the scheduled completion of activity and the actual completion of the activity is known as schedule variance.
+
+- Test efforts biasing factors:
