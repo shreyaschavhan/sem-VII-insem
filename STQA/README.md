@@ -373,3 +373,71 @@
 >   - difference between the scheduled completion of activity and the actual completion of the activity is known as schedule variance.
 
 - Test efforts biasing factors:
+> - cognitive bias: bias based on personal judgements of efforts required.
+> - negative bias: bias based on negative experiences over neutral or positive experience.
+> - confirmation bias: bias based on information that confirms tester's previously existing beliefs or biases.
+> - framing bias: bias based on how the information is framed and presented rather than facts.
+> - self serving bias: bias that leads oneself perform things in overly favorable manner of their own.
+> - illusion of knowing: based on belief that comprehension has been attained when, in fact, comprehension has failed.
+> - resemblance bias: bias based on resemblance of things.
+> - congruence bias: happens when our mind refuses to think of alternatives.
+> - the bandwagon effect: when a large number of people believe in something, there is a probability that we will also believe in that belief even if it might not be true.
+> - in-attentional blindness: unintentionally/intentionally missing defects even if it's in front of us because we ain't looking for them.
+
+- Test report and configuration management:
+> - Test report is a document which contains a summary of all test activities and their respective results.
+> - configuration management(CM): is the process to systematically manage, organize and control the changes in the document, codes and their configurations.
+
+- Quality assurance process:
+> - Analyze requirements
+> - Plan the tests
+> - Design the tests
+> - Execute tests and report Defects
+> - Run re-tests and regression tests
+> - run release tests
+
+- Documentation risks and issues:
+> - Badly formatted documentation of code.
+> - Test document is not explaining what it's doing or made for.
+> - Risks:
+>   - Missing or outdated versions of policies, processes, guidelines and standards in the documentation leading to mis/outdated-information.
+>   - Little or uneven enforcement of documentation policies leading to bad practices.
+>   - Monitoring and auditing is not defined adequately.
+
+- Software Quality:
+> - Software quality stands for how well a software complies with or conforms to given design, based on functional requirements or specifications.
+> - Attributes of software quality:
+>   - good design
+>   - Reliability
+>   - durability
+>   - Consistency
+>   - Maintainability
+>   - value for money
+
+- Quality management importance:
+> - it helps organization monitor customers feedback and meet their needs and expectations.
+> - it helps eliminate product defects and create a continuous cycle of improvement.
+> - helps reduce overall quality costs.
+> - ensures higher productivity.
+> - ensures consistent quality.
+> - ensures long lasting efficiency.
+> - build trust among customers.
+
+- Quality best practices:
+> - Create separate teams for testing security and performance.
+> - talk to end-users and simulate their environment.
+> - Mimic the developer environment.
+> - focus on significant code changes.
+> - use a two-tier test automation approach.
+> - run a regression cycle.
+> - test one thing at a time.
+> - understand the types of testing on offer.
+> - use regression test
+> - report and track bugs
+> - leverage analytics
+> - choose the right environment for tests.
+> - use unit and integration tests.
+> - don't neglect the ui.
+
+---
+> Done
